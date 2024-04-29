@@ -19,4 +19,4 @@ function numerosalrevez() {
     console.log("El inverso de " + numeroIngresado + " es: " + numeroInverso);
 }
 
-numerosalrevez();
+console.log (numerosalrevez());

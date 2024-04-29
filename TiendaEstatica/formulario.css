@@ -1,0 +1,29 @@
+nav {
+    background-color: black;
+    color: white;
+    width: 100%;
+    display: flex ;
+    position: sticky;
+    top: 0;
+}
+
+nav a {
+    color: white;
+    padding: 15px 20px;
+   
+}
+
+nav a:hover{
+    color: black;
+    background-color: aqua;
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+}
+
+ nav .bottons{
+    display: flex;
+    flex-direction: row;
+ }

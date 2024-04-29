@@ -1,0 +1,99 @@
+nav {
+    background-color: black;
+    color: white;
+    width: 100%;
+    display: flex ;
+    position: sticky;
+    top: 0;
+}
+
+nav a {
+    color: white;
+    padding: 15px 20px;
+   
+}
+
+nav a:hover{
+    color: black;
+    background-color: aqua;
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+}
+
+ nav .bottons{
+    display: flex;
+    flex-direction: row;
+ }
+
+.body{
+    padding: 0;
+    margin: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    background-color: rgba(0, 255, 255, 0.274);
+    
+
+
+ }
+.form-container {
+    background-color: rgba(245, 245, 220, 0.792);
+    border-radius: 10px;
+    width: 60%; 
+    height: 90%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.form-container .login-container > h2 {
+    text-align: center;
+    font-size: 2.5rem;
+}
+.form-container .login-container > p {
+    text-align: center;
+}
+.form-container .login-container > label {
+    display: flex;
+    text-align: center;
+    font-weight: bold;
+    padding: 5px 0;
+
+}
+.form-container .login-container input.input{
+ display: block;
+ width: 50%;
+ box-sizing: border-box;
+ padding: 10px;
+ border-radius: 5px;
+ text-align: center;
+}
+.form-container .login-container input.input:focus{
+    outline: solid 2px aqua;
+    text-align: center;
+}
+.form-container .login-container .Opciones{
+    display: flex;
+    justify-content: space-between;
+
+}
+.btn {
+    border: none;
+    padding: 15px 0;
+    width: 100%;
+    font-weight: bold;
+    border-radius: 5px;
+
+}
+.btn.btn-login{
+    background-color: black;
+    color: white;
+}
+.btn .btn-login {
+    display: flex;
+    justify-content: flex-end;
+}

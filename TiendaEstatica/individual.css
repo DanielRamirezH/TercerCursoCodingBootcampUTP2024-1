@@ -1,0 +1,80 @@
+* {
+    margin: 0%;
+    padding: 0%;
+}
+
+nav {
+    background-color: black;
+    color: white;
+    width: 100%;
+    display: flex ;
+    position: sticky;
+    top: 0;
+}
+
+nav a {
+    color: white;
+    padding: 15px 20px;
+   
+}
+
+nav a:hover{
+    color: black;
+    background-color: aqua;
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+}
+
+ nav .bottons{
+    display: flex;
+    flex-direction: row;
+ }
+
+.img {
+    height: 250px;
+    border-radius: 10px;
+}
+.cajagrande a:hover {
+    color: aqua;  
+}
+
+.texto {
+    width: 20%;
+}
+
+.cajagrande {
+    display: flex;
+    margin: 5%;
+    flex-direction: row;
+    justify-content: center;
+}
+.caja1 {
+    display: flex;
+    background-color: rgb(245, 245, 220);
+    color: black;
+    padding: 2%;
+    margin: 0px;
+    flex-direction: column
+
+    
+}
+.caja {
+    display: flex;
+    width: 200px;
+    padding: 2%;
+    margin: 0px;
+    background-color: rgba(128, 128, 128, 0.854);
+    color: black;  
+    justify-content: space-around;
+    flex-direction: column
+    
+
+    
+}   
+.texto{
+    width: 450px;
+}
+

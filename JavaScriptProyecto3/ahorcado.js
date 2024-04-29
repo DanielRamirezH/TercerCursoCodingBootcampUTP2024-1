@@ -14,8 +14,8 @@ function generarPalabraAleatoria() {
 
 function imprimirAhorcado(partesCuerpo) {
     let muñeco = [
-        "+----+",
-        "|    " + (partesCuerpo >= 1 ? "0" : ""),
+        "+----+",   
+        "|    " + (partesCuerpo >= 1 ? "0" : "" ),
         "|    " + (partesCuerpo >= 2 ? "/|\\" : ""),
         "|    " + (partesCuerpo >= 3 ? "|" : ""),
         "|    " + (partesCuerpo >= 4 ? "/ \\" : ""),
