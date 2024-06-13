@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <title>Proyecto Navidad</title>
+    <link rel="stylesheet" href="styles.css" />
+    <link rel="stylesheet" href="./css/Modals.css" />
+  </head>
+
+  <body class="no-scroll">
+    <header class="header">
+      <img src="BootCamp.png" alt="Bootcampt" class="Bootcampt" />
+      <div class="ordentitulo">
+        <h1 class="titulo">Armemos el pesebre de Navidad</h1>
+        <p class="parrafo">
+          Como es tradición cada diciembre armamos el pesebre para esperar la
+          llegada del Niño Dios. Presiona cada tarjeta para descubrir un
+          personaje concéntrate y encuentra su pareja, así revelarás un
+          personaje en el pesebre y descubrirás un dato curioso sobre esta
+          tradición de navida
+        </p>
+      </div>
+    </header>
+
+    <div id="modal-intro" class="modal-intro">
+      <div class="modal-contenido">
+        <div class="row">
+          <img class="modalImg" src="./media/modal-intro.png" alt="modal" />
+        </div>
+        <div class="row">
+          <button id="btn-comenzar" class="btn-comenzar" onclick="Comenzar()">
+            Comenzar
+          </button>
+        </div>
+      </div>
+    </div>
+
+    <div id="modal-juego" class="modal-intro none">
+      <div class="modal-contenedor">
+          <div class="modal-game-contenido">
+              <div class="columnas-pesebre">
+                  <div class="columna-imagen-pesebre">
+                      <!-- Imagenes tapas -->
+                      <img src="./media/baltazar.png" alt="baltazar" class="modal-baltazar">
+                      <img src="./media/gaspar.png" alt="gaspar" class="modal-gaspar">
+                      <img src="./media/melchor.png" alt="melchor" class="modal-melchor">
+                      <img src="./media/maria.png" alt="maria" class="modal-maria">
+                      <img src="./media/jesus.png" alt="jesus" class="modal-jesus">
+                      <img src="./media/mula-buey.png" alt="mula-buey" class="modal-mula">
+                      <img src="./media/jose.png" alt="jose" class="modal-jose">
+                      <img src="./media/pastor.png" alt="pastor" class="modal-pastor">
+                      <!-- --------------------------- -->
+                  </div>
+                  <!-- Columna derecha (Contenido) -->
+                  <div class="columna-contenido">
+                      <div class="modal-titulo">Sabias que</div>
+                          <p id="texto" class="modalText">
+
+                          </p>
+                      <img class="copo1" src="./media/copo.png">
+                      <img class="copo2" src="./media/copo.png">
+                      <button id="btn-juego" class="btn-modal" onclick="final()">Continuar</button>
+                  </div>
+                  
+                  <!-- ---------------------------- -->
+              </div>
+          </div>
+      </div>
+  </div>
+
+  
+                <!-- ---------------------------- -->
+            </div>
+        </div>
+    </div>
+</div>
+
+
+
+
+
+    <main class="main">
+
+      <div id="tablero">
+        <div class="clas">
+          hola
+        </div>
+      </div>
+
+      <!--javascript -->
+    </main>
+
+    <footer class="footer">
+      <div class="ordenabajo">
+        <img src="logoEscuelDidactica.png" alt="" class="logoEscuelDidactica" />
+        <p>
+          Te ayudamos a transformar el aprendizaje en experiencias memorables.
+        </p>
+      </div>
+    </footer>
+    <script src="./javascript/Modals.js"></script>
+    <script src="./javascript/Memorama.js"></script>
+  </body>
+</html>

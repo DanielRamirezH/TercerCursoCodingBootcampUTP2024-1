@@ -1,0 +1,38 @@
+* {
+ padding: 0;
+ margin: 0;
+}
+h1 {
+  font-weight: bold;
+  color: black;
+}
+.carta {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  width: 25%;
+  height: 300px;
+  border: 2px solid black;
+  margin: 10px;
+  
+}
+.contenedor {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+}
+
+.navBar{
+  color: black;
+  width: 100vw;
+  height: 500px;
+}
+
+*{
+  color:black;
+}
+
+.navBar a p{
+  color: black;
+}

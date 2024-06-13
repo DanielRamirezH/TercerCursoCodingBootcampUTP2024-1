@@ -1,0 +1,116 @@
+* {
+    padding: 0;
+    margin: 0;
+    transition: transform 0.7s; /*todas las animaciones del documento*/
+}
+
+body {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    background: url(background.png);
+    background-color: rgba(255, 166, 0, 0.722);
+    font-family: arlon;
+    overflow-x: hidden;
+}
+
+.no-scroll{
+    overflow:hidden;
+}
+.header {
+    height: 10%;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    background-color: white; 
+}
+.Bootcampt {
+    height: 100%;
+    width: 25%;
+}
+.ordentitulo {
+    display: flex;
+    flex-direction: column;
+    background-color: rgba(127, 255, 212, 0.305);
+}
+.titulo {
+    color: rgb(95, 163, 165);
+}
+.main { 
+    width: 100vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.footer {
+    display: flex;
+    background-color: white;
+    position: fixed;
+    bottom: 0;
+    height: 70px;
+    width: 100%;
+}
+.logoEscuelDidactica {
+    display: flex;
+    height: 100%;
+
+}
+.ordenabajo{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.area-tarjeta,
+.cara {
+    width: calc(100%/4);
+    height: auto;
+    transform-style: preserve-3d;/*  preserva el 3d para que se note la animacion de voltear la cara */
+    cursor: pointer;
+    position: relative;
+}
+
+/* codigo de clase para poder hacer que las cartas hagan la animacion en la entrada (aparecer una a una detras del modal del inicio) */
+.cardAnimation {
+    animation: zoom .5s ease backwards;
+}
+
+/* codigo de estilo para cada una de las tarjetas del juego */
+.tarjeta {
+    position: relative;
+    transform-style: preserve-3d;
+}
+
+img {
+    width: 100%;
+}
+
+/* codigo de estilo para la cara trasera que contiene la imagen generada aleatoriamente */
+.trasera { /* imagen par */
+    transform: rotateY(180deg);
+    position: relative;
+    width: 100%;
+    backface-visibility: hidden;
+    overflow: hidden;
+}
+
+/* codigo de estilo para la cara superior que contiene la imagen de la carta cuando aun no ha sido volteada (posicion inicial) */
+.superior {
+    position: absolute;
+    width: 100%;
+    top: 0;
+    left: 0;
+    backface-visibility: hidden;
+    overflow: hidden;
+}
+
+#tablero{
+    width: 60%;
+    height: 100vh;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    margin-bottom: 350px;
+    margin-top: 50px;
+}
